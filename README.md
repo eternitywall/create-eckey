@@ -4,5 +4,4 @@ Simple script to create an elliptic curve secp256k1 keypair (bitcoin) and printi
 
 # launch
 
-`npm install`
 `npm test`

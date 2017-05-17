@@ -4,6 +4,7 @@
   "description": "Simple script to create an elliptic curve secp256k1 keypair (bitcoin) and printing the public key hash along with the private key in WIF format ",
   "main": "create.js",
   "scripts": {
+    "pretest": "npm install",
     "test": "node create.js"
   },
   "repository": {
