@@ -1,0 +1,27 @@
+{
+  "name": "create-eckey",
+  "version": "1.0.0",
+  "description": "Simple script to create an elliptic curve secp256k1 keypair (bitcoin) and printing the public key hash along with the private key in WIF format ",
+  "main": "create.js",
+  "scripts": {
+    "test": "node create.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternitywall/create-eckey.git"
+  },
+  "keywords": [
+    "key",
+    "bitcoin",
+    "secp256k1"
+  ],
+  "author": "Eternity Wall <admin@eternitywall.com> (https://eternitywall.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eternitywall/create-eckey/issues"
+  },
+  "homepage": "https://github.com/eternitywall/create-eckey#readme",
+  "dependencies": {
+    "bitcore-lib": "^0.14.0"
+  }
+}
